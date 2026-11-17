@@ -16,4 +16,4 @@ Publique esta pasta como a raiz de um repositório público próprio. Em Setting
 
 ## Referências
 
-Os guias HTML fornecidos acompanham o projeto. A imagem de vôlei é ilustrativa e foi gerada para a abertura. A folha de estilos prefere Inter quando instalada e usa a fonte do sistema na ausência da família.
+Os guias HTML fornecidos acompanham o projeto. A imagem de pádel é ilustrativa e foi gerada para a abertura. A folha de estilos prefere Inter quando instalada e usa a fonte do sistema na ausência da família.
