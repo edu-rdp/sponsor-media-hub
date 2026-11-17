@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projeto acadêmico que aproxima marcas e organizadores de eventos esportivos com objetivos compatíveis.">
+  <meta property="og:title" content="Sponsor Media Hub">
+  <meta property="og:description" content="Conectamos marcas a eventos esportivos alinhados aos seus objetivos.">
+  <meta name="theme-color" content="#f5f8fc">
+  <title>Sponsor Media Hub | Patrocínio esportivo</title>
+  <link rel="icon" href="assets/logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <header class="top">
+    <a href="./" aria-label="Sponsor Media Hub, início"><img src="assets/logo.jpg" alt="Sponsor Media Hub"></a>
+    <nav aria-label="Navegação principal">
+      <a href="#como">Como funciona</a><a href="#cota">Exemplo de cota</a><a href="#guias">Guias</a>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <section class="hero wrap" aria-labelledby="titulo">
+      <div class="hero-copy">
+        <h1>O patrocínio começa com o evento certo.</h1>
+        <p>Conectamos marcas a eventos esportivos alinhados ao público e aos objetivos da campanha.</p>
+        <div class="actions">
+          <a class="button primary" href="#patrocinador">Quero patrocinar</a>
+          <a class="button secondary" href="#organizador">Quero apresentar meu evento</a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="assets/volei.webp" alt="Partida de vôlei em uma quadra coberta, com público nas arquibancadas" width="1200" height="800" fetchpriority="high">
+      </figure>
+    </section>
+
+    <section class="how wrap" id="como">
+      <h2>Como encontramos uma parceria</h2>
+      <ol class="steps">
+        <li><strong>Entendemos o objetivo</strong><p>A marca descreve o público que quer alcançar, a região, o orçamento e o prazo.</p></li>
+        <li><strong>Avaliamos a compatibilidade</strong><p>O organizador apresenta o evento, a audiência e as contrapartidas disponíveis.</p></li>
+        <li><strong>Combinamos as entregas</strong><p>As partes definem a ativação, os responsáveis e como comprovar o que foi entregue.</p></li>
+      </ol>
+    </section>
+
+    <section class="sample" id="cota" aria-labelledby="cota-titulo">
+      <div class="wrap sample-grid">
+        <div>
+          <p class="label">Exemplo ilustrativo</p>
+          <h2 id="cota-titulo">Uma cota em um torneio local de vôlei</h2>
+          <p>Uma marca quer apresentar seu produto a quem acompanha o torneio. A parceria reúne entregas antes, durante e depois do jogo.</p>
+          <div class="court" aria-hidden="true"><span>Ativação</span></div>
+        </div>
+        <ol class="deliverables">
+          <li><span>Antes</span><div><h3>Conteúdo de divulgação</h3><p>Menção à marca em uma publicação do evento.</p></div></li>
+          <li><span>Durante</span><div><h3>Espaço de ativação</h3><p>Área reservada para demonstração do produto ao público.</p></div></li>
+          <li><span>Durante</span><div><h3>Convites para clientes</h3><p>Ingressos para a marca receber seus convidados.</p></div></li>
+          <li><span>Depois</span><div><h3>Relatório pós-evento</h3><p>Fotos e links para comprovar as entregas acordadas.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="wrap guides" id="guias">
+      <h2>Prepare sua conversa</h2>
+      <div class="guide-grid">
+        <article id="patrocinador">
+          <h3>Para marcas</h3>
+          <p>Defina o público, o objetivo e o que você quer medir em uma parceria esportiva.</p>
+          <div class="actions"><a href="guia-patrocinador.html">Ler guia do patrocinador</a><a class="button primary" data-whatsapp="patrocinador" hidden>Conversar no WhatsApp</a></div>
+        </article>
+        <article id="organizador">
+          <h3>Para organizadores</h3>
+          <p>Organize os dados de audiência, os espaços de ativação e as entregas da sua cota.</p>
+          <div class="actions"><a href="guia-organizador.html">Ler guia do organizador</a><a class="button primary" data-whatsapp="organizador" hidden>Conversar no WhatsApp</a></div>
+        </article>
+      </div>
+      <p id="contact-status" hidden>O contato do projeto está em preparação.</p>
+    </section>
+  </main>
+  <footer class="wrap">
+    <p>Sponsor Media Hub · Projeto acadêmico</p>
+    <div><a id="instagram" hidden>Instagram</a><button type="button" id="preferences" hidden>Preferências de privacidade</button></div>
+  </footer>
+
+  <dialog id="privacy" aria-labelledby="privacy-title">
+    <form method="dialog">
+      <h2 id="privacy-title">Preferências de privacidade</h2>
+      <p>Você pode permitir ferramentas de análise e publicidade. O conteúdo e os links funcionam com qualquer escolha.</p>
+      <label><input type="checkbox" name="analytics"> Análise de uso (Google Analytics e Microsoft Clarity)</label>
+      <label><input type="checkbox" name="marketing"> Publicidade (Meta Pixel)</label>
+      <div class="actions">
+        <button value="reject" class="button secondary">Recusar opcionais</button>
+        <button value="save" class="button primary">Salvar preferências</button>
+      </div>
+    </form>
+  </dialog>
+</body>
+</html>
